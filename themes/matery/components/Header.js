@@ -99,7 +99,7 @@ const Header = props => {
                     <span id='typed' />
                 </div>
                 <div onClick={() => { window.scrollTo({ top: wrapperTop, behavior: 'smooth' }) }}
-                    className="mt-12 border cursor-pointer w-40 text-center pt-4 pb-3 text-md text-white hover:bg-orange-600 duration-300 rounded-3xl z-40">
+                    className="mt-12 border cursor-pointer w-40 text-center pt-4 pb-3 text-md text-white hover:bg-gray-300 duration-300 rounded-3xl z-40">
                     <i className='animate-bounce fas fa-angle-double-down' /> <span>{locale.COMMON.START_READING}</span>
                 </div>
             </div>

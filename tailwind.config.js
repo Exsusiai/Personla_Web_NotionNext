@@ -17,7 +17,8 @@ module.exports = {
         hexo: {
           'background-gray': '#f5f5f5',
           'black-gray': '#101414',
-          'light-gray': '#e5e5e5'
+          'light-gray': '#e5e5e5',
+          'light-green': '#e9eeec'
         }
       },
       maxWidth: {

@@ -42,7 +42,7 @@ const LayoutBase = props => {
   }
 
   return (
-        <div id='theme-matery' className="min-h-screen flex flex-col justify-between bg-hexo-background-gray dark:bg-black w-full">
+        <div id='theme-matery' className="min-h-screen flex flex-col justify-between bg-hexo-light-green dark:bg-black w-full">
 
             <CommonHead meta={meta} siteInfo={siteInfo} />
 
