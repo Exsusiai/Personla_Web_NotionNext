@@ -16,9 +16,9 @@ const Announcement = ({ notice }) => {
             data-aos-anchor-placement="top-bottom"
             className="mb-4 p-2 overflow-auto rounded-xl">
             <div className="text-sm flex flex-nowrap justify-between">
-                <div className="font-light text-gray-600  dark:text-gray-200">
+                {/* <div className="font-light text-gray-600  dark:text-gray-200">
                     <i className="mx-2 fas fa-bullhorn" />{locale.COMMON.ANNOUNCEMENT}
-                </div>
+                </div> */}
             </div>
             {notice && (<div id="announcement-content">
                 <NotionPage post={notice} className='text-center ' />
@@ -28,4 +28,3 @@ const Announcement = ({ notice }) => {
 }
 export default Announcement
 
-// border dark:border-black

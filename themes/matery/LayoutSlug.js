@@ -105,7 +105,7 @@ export const LayoutSlug = props => {
             {/* 底部文章推荐 */}
             {post.type === 'Post' && <ArticleAdjacent {...props} />}
 
-            <Announcement {...props}/>
+            {/* <Announcement {...props}/> */}
 
             {/* 右侧文章目录 */}
             {post?.toc?.length > 0 && <div id='toc-wrapper' style={{ zIndex: '-1' }} className='absolute top-0 w-full h-full xl:block hidden lg:max-w-3xl 2xl:max-w-4xl' >
