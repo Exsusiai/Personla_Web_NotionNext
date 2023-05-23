@@ -93,11 +93,27 @@ const Header = props => {
             className=" w-full h-screen bg-black text-white relative"
         >
 
-            <div className="absolute flex flex-col h-full items-center justify-center w-full ">
-                <div className='text-4xl md:text-5xl text-white shadow-text'>{siteInfo?.title}</div>
-                <div className='mt-2 h-12 items-center text-center shadow-text text-white text-lg'>
+           {/*<div className="absolute flex flex-col h-full items-start justify-center w-full pl-60 pb-60">
+                <div className='text-4xl md:text-5xl text-white shadow-text'>
                     <span id='typed' />
                 </div>
+                <div className='mt-2 h-12 items-center text-center shadow-text text-white text-lg'>
+                    {CONFIG_MATERY.HOME_BANNER_GREETINGS}
+                </div>
+            </div> */}
+
+            <div className="absolute flex flex-col h-full items-center justify-center w-full ml-[-365px] pb-60">
+                <div style={{ textAlign: 'left', marginLeft: '50px' }}>
+                    <div className='text-4xl md:text-5xl text-white shadow-text'>
+                        {CONFIG_MATERY.HOME_BANNER_TITLE}
+                    </div>
+                    <div className='mt-2 h-12 items-start shadow-text text-white text-lg'>
+                        <span id='typed' />
+                    </div>
+                </div>
+            </div>
+
+            <div className="absolute flex flex-col h-full items-center justify-end w-full pb-40">
                 <div onClick={() => { window.scrollTo({ top: wrapperTop, behavior: 'smooth' }) }}
                     className="mt-12 border cursor-pointer w-40 text-center pt-4 pb-3 text-md text-white hover:bg-gray-300 duration-300 rounded-3xl z-40">
                     <i className='animate-bounce fas fa-angle-double-down' /> <span>{locale.COMMON.START_READING}</span>
