@@ -1,6 +1,6 @@
 const CONFIG_MATERY = {
   HOME_BANNER_ENABLE: true,
-  HOME_BANNER_TITLE: ['Hi, I\'m Jingsheng'], // 首页大图标语文字
+  HOME_BANNER_TITLE: 'Hi, I\'m Jingsheng', // 首页大图标语文字
   HOME_BANNER_GREETINGS: ['Welcome to my personal website🎉'], // 首页大图标语文字
 
 
@@ -11,7 +11,7 @@ const CONFIG_MATERY = {
   MENU_CATEGORY: true, // 显示分类
   MENU_TAG: true, // 显示标签
   MENU_ARCHIVE: true, // 显示归档
-  MENU_SEARCH: true, // 显示搜索
+  MENU_SEARCH: false, // 显示搜索
 
   POST_LIST_COVER: true, // 文章封面
   POST_LIST_SUMMARY: true, // 文章摘要

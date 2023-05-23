@@ -102,14 +102,22 @@ const Header = props => {
                 </div>
             </div> */}
 
-            <div className="absolute flex flex-col h-full items-center justify-center w-full ml-[-365px] pb-60">
-                <div style={{ textAlign: 'left', marginLeft: '50px' }}>
+            {/* <div className="absolute flex flex-col h-full items-center justify-center w-full ml-[-365px] pb-60">
+                <div style={{ textAlign: 'left'}}>
                     <div className='text-4xl md:text-5xl text-white shadow-text'>
                         {CONFIG_MATERY.HOME_BANNER_TITLE}
                     </div>
                     <div className='mt-2 h-12 items-start shadow-text text-white text-lg'>
                         <span id='typed' />
                     </div>
+                </div>
+            </div> */}
+            <div className="absolute flex flex-col h-full items-center justify-center w-full">
+                <div className='text-4xl md:text-5xl text-white shadow-text'>
+                    {CONFIG_MATERY.HOME_BANNER_TITLE}
+                </div>
+                <div className='mt-2 h-12 items-start shadow-text text-white text-lg'>
+                    <span id='typed' />
                 </div>
             </div>
 
