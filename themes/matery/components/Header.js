@@ -112,7 +112,8 @@ const Header = props => {
                     </div>
                 </div>
             </div> */}
-            <div className="absolute flex flex-col h-full items-center justify-center w-full">
+            
+            <div className="absolute flex flex-col h-full items-center justify-center w-full sm:ml-[-365px] sm:pb-60">
                 <div className='text-4xl md:text-5xl text-white shadow-text'>
                     {CONFIG_MATERY.HOME_BANNER_TITLE}
                 </div>
