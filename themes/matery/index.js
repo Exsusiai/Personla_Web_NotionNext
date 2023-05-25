@@ -9,6 +9,7 @@ import { LayoutCategoryIndex } from './LayoutCategoryIndex'
 import { LayoutPage } from './LayoutPage'
 import { LayoutTag } from './LayoutTag'
 import { LayoutTagIndex } from './LayoutTagIndex'
+import { LayoutBlog } from './LayoutBlog'
 
 export {
   CONFIG_MATERY as THEME_CONFIG,
@@ -21,5 +22,6 @@ export {
   LayoutCategoryIndex,
   LayoutPage,
   LayoutTag,
-  LayoutTagIndex
+  LayoutTagIndex,
+  LayoutBlog
 }
