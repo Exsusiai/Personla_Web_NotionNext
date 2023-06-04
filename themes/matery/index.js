@@ -10,6 +10,7 @@ import { LayoutPage } from './LayoutPage'
 import { LayoutTag } from './LayoutTag'
 import { LayoutTagIndex } from './LayoutTagIndex'
 import { LayoutBlog } from './LayoutBlog'
+import { LayoutContact } from './LayoutContact'
 
 export {
   CONFIG_MATERY as THEME_CONFIG,
@@ -23,5 +24,6 @@ export {
   LayoutPage,
   LayoutTag,
   LayoutTagIndex,
-  LayoutBlog
+  LayoutBlog,
+  LayoutContact
 }

@@ -51,8 +51,8 @@ export const LayoutSlug = props => {
 
         <div className="flex justify-start">
             {/* 文章主体卡片 */}
-            <div id='inner-wrapper' className='w-full lg:max-w-6xl 2xl:max-w-7xl'>
-                <div className="-mt2 transition-all duration-300 rounded-md mx-3 lg:border lg:rounded-xl lg:py-4 bg-white dark:bg-hexo-black-gray  dark:border-black ">
+            <div id='inner-wrapper' className='w-full'>
+                <div className="-mt2 transition-all duration-300 rounded-md mx-3 lg:rounded-xl lg:py-4 dark:border-black ">
                     {lock && <ArticleLock validPassword={validPassword} />}
 
                     {!lock && <div id="container" className="overflow-x-auto md:w-full px-3 ">
