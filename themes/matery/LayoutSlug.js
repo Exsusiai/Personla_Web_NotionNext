@@ -4,14 +4,12 @@ import HeaderArticle from './components/HeaderArticle'
 import LayoutBase from './LayoutBase'
 import Comment from '@/components/Comment'
 import NotionPage from '@/components/NotionPage'
-import ArticleAdjacent from './components/ArticleAdjacent'
 import ArticleCopyright from './components/ArticleCopyright'
 import { ArticleInfo } from './components/ArticleInfo'
 import Catalog from './components/Catalog'
-import JumpToCommentButton from './components/JumpToCommentButton'
 import throttle from 'lodash.throttle'
 import ShareBar from '@/components/ShareBar'
-import Announcement from './components/Announcement'
+
 
 export const LayoutSlug = props => {
   const { post, lock, validPassword } = props

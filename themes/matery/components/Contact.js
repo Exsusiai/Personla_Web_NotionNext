@@ -1,10 +1,10 @@
-import { useGlobal } from '@/lib/global'
+// import { useGlobal } from '@/lib/global'
 import dynamic from 'next/dynamic'
 
 const NotionPage = dynamic(() => import('@/components/NotionPage'))
 
 const Contact = ({ contact }) => {
-  const { locale } = useGlobal()
+//   const { locale } = useGlobal()
   if (!contact) {
     return <></>
   }

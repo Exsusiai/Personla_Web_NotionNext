@@ -1,5 +1,5 @@
-import Header from './components/Header'
-import CONFIG_MATERY from './config_matery'
+// import Header from './components/Header'
+// import CONFIG_MATERY from './config_matery'
 import HeaderArticle from './components/HeaderArticle'
 import LayoutBase from './LayoutBase'
 import React from 'react'

@@ -1,8 +1,6 @@
 import BLOG from '@/blog.config'
 import { getPostBlocks } from '@/lib/notion'
 import { getGlobalNotionData } from '@/lib/notion/getNotionData'
-import * as ThemeMap from '@/themes'
-import { useGlobal } from '@/lib/global'
 import { generateRss } from '@/lib/rss'
 import { generateRobotsTxt } from '@/lib/robots.txt'
 import * as matery from '@/themes/matery'
@@ -13,7 +11,7 @@ import * as matery from '@/themes/matery'
  * @returns
  */
 const Blog = props => {
-  const { theme } = useGlobal()
+  // const { theme } = useGlobal()
   // const ThemeComponents = ThemeMap[theme]
   return <matery.LayoutBlog {...props} />
 }

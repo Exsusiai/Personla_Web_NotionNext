@@ -1,12 +1,10 @@
 import BLOG from '@/blog.config'
 import BlogPostListPage from './components/BlogPostListPage'
 import BlogPostListScroll from './components/BlogPostListScroll'
-import Header from './components/Header'
-import CONFIG_MATERY from './config_matery'
 import LayoutBase from './LayoutBase'
 import React from 'react'
 import Link from 'next/link'
-import Announcement from './components/Announcement'
+
 // import HeaderArticle from './components/HeaderArticle'
 import BlogArticle from './components/BLogArticle'
 
