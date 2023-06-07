@@ -14,7 +14,7 @@ import * as matery from '@/themes/matery'
  */
 const Blog = props => {
   const { theme } = useGlobal()
-  const ThemeComponents = ThemeMap[theme]
+  // const ThemeComponents = ThemeMap[theme]
   return <matery.LayoutBlog {...props} />
 }
 
