@@ -21,7 +21,7 @@ const Announcement = ({ notice }) => {
                 </div> */}
             </div>
             {notice && (<div id="announcement-content">
-                <NotionPage post={notice} className='text-center ' />
+                <NotionPage post={notice} className='text-left ' />
             </div>)}
         </div>
     </div>
